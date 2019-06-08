@@ -1,0 +1,11 @@
+dao\FileDao.class
+web\fault\ServiceFaultManager.class
+web\soap\FileStorageServiceImpl.class
+util\CSVProvider.class
+web\rest\FileStorageService.class
+model\Type.class
+web\fault\SoapServiceException.class
+web\rest\FileStorageServiceImpl.class
+bo\FileBO.class
+web\soap\FileStorageService.class
+model\UserFile.class

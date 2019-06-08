@@ -1,0 +1,46 @@
+configuration:
+  name: Log4j2_Config
+
+  Properties:
+    property:
+      name: log_path
+      value: "logs"
+
+  Appenders:
+
+    Console:
+    - name: Console
+      PatternLayout:
+        disableAnsi: false
+        Pattern: "%highlight{%-5level}{FATAL=bg_red}%highlight{%msg} %xEx{short}%n"
+
+    File:
+    - name: File
+      fileName: src/main/resources/log_data/log.log
+      PatternLayout:
+        Pattern: "[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} %class{1}:%L - %msg%xEx{short}%n"
+
+
+  Loggers:
+    Root:
+      level: all
+
+    Logger:
+    - name: dao.FileDao
+      level: all
+      AppenderRef:
+      - ref: File
+      - ref: Console
+
+    - name: web.rest.FileStorageServiceImpl
+      level: all
+      AppenderRef:
+      - ref: File
+      - ref: Console
+
+    - name: web.soap.FileStorageServiceImpl
+      level: all
+      AppenderRef:
+      - ref: File
+      - ref: Console
+

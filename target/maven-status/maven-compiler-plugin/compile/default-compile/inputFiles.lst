@@ -1,0 +1,11 @@
+D:\file_storage_service\src\main\java\web\fault\SoapServiceException.java
+D:\file_storage_service\src\main\java\web\rest\FileStorageService.java
+D:\file_storage_service\src\main\java\web\rest\FileStorageServiceImpl.java
+D:\file_storage_service\src\main\java\web\fault\ServiceFaultManager.java
+D:\file_storage_service\src\main\java\model\UserFile.java
+D:\file_storage_service\src\main\java\util\CSVProvider.java
+D:\file_storage_service\src\main\java\web\soap\FileStorageService.java
+D:\file_storage_service\src\main\java\model\Type.java
+D:\file_storage_service\src\main\java\dao\FileDao.java
+D:\file_storage_service\src\main\java\web\soap\FileStorageServiceImpl.java
+D:\file_storage_service\src\main\java\bo\FileBO.java
