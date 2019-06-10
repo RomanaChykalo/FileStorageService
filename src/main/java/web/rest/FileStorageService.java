@@ -34,8 +34,6 @@ public interface FileStorageService {
     @Produces("application/json; charset=UTF-8")
     Response removeFile(@PathParam("name") String name);
 
-
-
     @GET
     @Path("/files/type/{type}")
     @Produces("application/json; charset=UTF-8")

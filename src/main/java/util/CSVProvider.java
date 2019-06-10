@@ -36,13 +36,6 @@ public class CSVProvider {
         }
         return files;
     }
-/*
-    private static UserFile createFile(String[] metadata) {
-        String name = metadata[0];
-        Type type = Type.valueOf(metadata[1].trim());
-        int size = Integer.parseInt(metadata[2].trim());
-        return new UserFile(name, type, size);
-    }*/
 
     public static UserFile createFile(String[] metadata) {
         String name = metadata[0];
@@ -50,32 +43,6 @@ public class CSVProvider {
         int size = Integer.parseInt(metadata[2].trim());
         return new UserFile(name, type, size);
     }
-
-
-    /*    public static void writeDataToCsvFile(UserFile file) {
-            try (BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(csvFilePath),
-                    "UTF-8"))) {
-                List<UserFile> userFiles = readFilesFromCSV(csvFilePath);
-                userFiles.add(file);
-                for(UserFile userFile:userFiles){
-                StringBuffer oneLine = new StringBuffer();
-                oneLine.append(file.getName().trim().length() == 0 ? "" : file.getName());
-                oneLine.append(CSV_SEPARATOR);
-                oneLine.append(file.getType().toString().trim().length() == 0 ? "" : file.getType().toString());
-                oneLine.append(CSV_SEPARATOR);
-                oneLine.append(file.getSize() < 0 ? "" : file.getSize());
-                bw.write(oneLine.toString());
-                bw.newLine();
-                bw.flush();
-                }
-            } catch (UnsupportedEncodingException e) {
-                e.printStackTrace();
-            } catch (FileNotFoundException e) {
-                e.printStackTrace();
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-        }*/
     public static void writeDataToCsvFile(List<UserFile> userFiles) {
         CSVFormat csvFileFormat = CSVFormat.DEFAULT.withRecordSeparator("\n").withNullString("");
         try (Writer out = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(new File(csvFilePath)), "UTF-8"))) {

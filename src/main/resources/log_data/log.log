@@ -229,3 +229,464 @@
 [INFO ] 2019-06-08 20:39:35.881 FileStorageServiceImpl:72 - get one type files list
 [INFO ] 2019-06-08 20:40:20.978 FileStorageServiceImpl:72 - get one type files list
 [WARN ] 2019-06-08 20:40:20.980 FileStorageServiceImpl:78 - There is no file in storage with  such name
+[INFO ] 2019-06-08 22:58:06.617 FileStorageServiceImpl:21 - Get all files from storage
+[INFO ] 2019-06-08 22:59:18.160 FileStorageServiceImpl:43 - Add file to storage
+[INFO ] 2019-06-08 22:59:18.230 FileDao:54 - Add file to general files list
+[ERROR] 2019-06-08 22:59:18.264 FileDao:63 -  Maximum file size is 1MB, you can't add larger file
+[WARN ] 2019-06-08 22:59:18.266 FileStorageServiceImpl:49 - Such file already exist  or File is too large for loading, max size is 1000 kb 
+[INFO ] 2019-06-08 22:59:44.983 FileStorageServiceImpl:43 - Add file to storage
+[INFO ] 2019-06-08 22:59:45.008 FileDao:54 - Add file to general files list
+[ERROR] 2019-06-08 22:59:45.050 FileDao:63 -  Maximum file size is 1MB, you can't add larger file
+[WARN ] 2019-06-08 22:59:45.051 FileStorageServiceImpl:49 - Such file already exist  or File is too large for loading, max size is 1000 kb 
+[INFO ] 2019-06-08 23:00:50.713 FileStorageServiceImpl:43 - Add file to storage
+[INFO ] 2019-06-08 23:00:50.721 FileDao:54 - Add file to general files list
+[INFO ] 2019-06-08 23:01:16.226 FileStorageServiceImpl:43 - Add file to storage
+[INFO ] 2019-06-08 23:01:16.228 FileDao:54 - Add file to general files list
+[INFO ] 2019-06-08 23:06:54.515 FileStorageServiceImpl:21 - Get all files from storage
+[INFO ] 2019-06-08 23:07:21.928 FileStorageServiceImpl:43 - Add file to storage
+[INFO ] 2019-06-08 23:07:21.929 FileDao:55 - Add file to general files list
+[INFO ] 2019-06-08 23:14:34.829 FileDao:55 - Add file to general files list
+[INFO ] 2019-06-08 23:16:45.279 FileStorageServiceImpl:21 - Get all files from storage
+[INFO ] 2019-06-08 23:17:07.319 FileStorageServiceImpl:43 - Add file to storage
+[INFO ] 2019-06-08 23:17:07.320 FileDao:55 - Add file to general files list
+[ERROR] 2019-06-08 23:17:07.341 FileDao:68 -  This file already exists
+[WARN ] 2019-06-08 23:17:07.343 FileStorageServiceImpl:49 - Such file already exist  or File is too large for loading, max size is 1000 kb 
+[INFO ] 2019-06-08 23:17:36.262 FileStorageServiceImpl:43 - Add file to storage
+[INFO ] 2019-06-08 23:17:36.274 FileDao:55 - Add file to general files list
+[ERROR] 2019-06-08 23:17:36.276 FileDao:68 -  This file already exists
+[WARN ] 2019-06-08 23:17:36.277 FileStorageServiceImpl:49 - Such file already exist  or File is too large for loading, max size is 1000 kb 
+[INFO ] 2019-06-08 23:18:18.256 FileStorageServiceImpl:43 - Add file to storage
+[INFO ] 2019-06-08 23:18:18.263 FileDao:55 - Add file to general files list
+[ERROR] 2019-06-08 23:18:18.265 FileDao:68 -  This file already exists
+[WARN ] 2019-06-08 23:18:18.267 FileStorageServiceImpl:49 - Such file already exist  or File is too large for loading, max size is 1000 kb 
+[INFO ] 2019-06-08 23:21:46.163 FileStorageServiceImpl:21 - Get all files from storage
+[INFO ] 2019-06-08 23:21:55.632 FileStorageServiceImpl:43 - Add file to storage
+[INFO ] 2019-06-08 23:21:55.643 FileDao:55 - Add file to general files list
+[INFO ] 2019-06-08 23:22:14.806 FileStorageServiceImpl:43 - Add file to storage
+[INFO ] 2019-06-08 23:22:14.807 FileDao:55 - Add file to general files list
+[ERROR] 2019-06-08 23:22:14.830 FileDao:68 -  This file already exists
+[WARN ] 2019-06-08 23:22:14.833 FileStorageServiceImpl:49 - Such file already exist  or File is too large for loading, max size is 1000 kb 
+[ERROR] 2019-06-08 23:23:14.811 FileDao:68 -  This file already exists
+[INFO ] 2019-06-09 16:58:45.885 FileStorageServiceImpl:25 - Get all files in storage.
+[INFO ] 2019-06-09 16:59:55.288 FileStorageServiceImpl:25 - Get all files in storage.
+[INFO ] 2019-06-09 17:06:15.213 FileStorageServiceImpl:25 - Get all files in storage.
+[INFO ] 2019-06-09 17:08:38.674 FileStorageServiceImpl:25 - Get all files in storage.
+[INFO ] 2019-06-09 17:10:17.684 FileStorageServiceImpl:25 - Get all files in storage.
+[INFO ] 2019-06-09 17:10:45.935 FileStorageServiceImpl:25 - Get all files in storage.
+[INFO ] 2019-06-09 17:11:13.183 FileStorageServiceImpl:25 - Get all files in storage.
+[INFO ] 2019-06-09 17:30:13.156 FileStorageServiceImpl:25 - Get all files in storage.
+[INFO ] 2019-06-09 17:30:48.939 FileStorageServiceImpl:25 - Get all files in storage.
+[INFO ] 2019-06-09 17:31:31.792 FileStorageServiceImpl:36 - Get file via name and type
+[INFO ] 2019-06-09 17:31:31.793 FileDao:28 - Looking for file using file name for search
+[INFO ] 2019-06-09 17:31:32.570 FileStorageServiceImpl:43 - getFile result:Optional[model.UserFile{name='resume', type=PDF, size=999}]
+[INFO ] 2019-06-09 17:32:06.385 FileStorageServiceImpl:74 - Try to find files with common type
+[INFO ] 2019-06-09 17:42:08.010 FileStorageServiceImpl:49 - Try to add file using addFile method 
+[INFO ] 2019-06-09 17:42:08.042 FileDao:55 - Add file to general files list
+[INFO ] 2019-06-09 17:42:08.388 FileStorageServiceImpl:56 - model.UserFile{name='My beautiful photo', type=PDF, size=890} is added: true
+[INFO ] 2019-06-09 17:42:59.098 FileStorageServiceImpl:49 - Try to add file using addFile method 
+[INFO ] 2019-06-09 17:42:59.100 FileDao:55 - Add file to general files list
+[ERROR] 2019-06-09 17:42:59.116 FileDao:65 -  Maximum file size is 1MB, you can't add larger file
+[WARN ] 2019-06-09 17:42:59.129 FileStorageServiceImpl:53 - Such file already exist 
+[INFO ] 2019-06-09 17:45:01.845 FileStorageServiceImpl:49 - Try to add file using addFile method 
+[INFO ] 2019-06-09 17:45:01.847 FileDao:55 - Add file to general files list
+[ERROR] 2019-06-09 17:45:01.849 FileDao:68 -  This file already exists
+[WARN ] 2019-06-09 17:45:01.851 FileStorageServiceImpl:53 - Such file already exist 
+[INFO ] 2019-06-09 17:48:27.363 FileStorageServiceImpl:62 - Try delete file using removeFile method
+[INFO ] 2019-06-09 17:48:27.367 FileDao:74 - try to delete file from file list
+[INFO ] 2019-06-09 17:48:27.369 FileDao:28 - Looking for file using file name for search
+[INFO ] 2019-06-09 22:00:39.249 FileStorageServiceImpl:49 - Try to add file using addFile method 
+[INFO ] 2019-06-09 22:00:39.250 FileDao:55 - Add file to general files list
+[INFO ] 2019-06-09 22:00:39.293 FileStorageServiceImpl:56 - model.UserFile{name='laptop configuration', type=WKS, size=500} is added: true
+[INFO ] 2019-06-09 22:00:39.408 FileStorageServiceImpl:49 - Try to add file using addFile method 
+[INFO ] 2019-06-09 22:00:39.408 FileDao:55 - Add file to general files list
+[INFO ] 2019-06-09 22:00:39.422 FileStorageServiceImpl:56 - model.UserFile{name='my birthday party menu', type=ODT, size=766} is added: true
+[INFO ] 2019-06-09 22:00:39.429 FileStorageServiceImpl:49 - Try to add file using addFile method 
+[INFO ] 2019-06-09 22:00:39.430 FileDao:55 - Add file to general files list
+[INFO ] 2019-06-09 22:00:39.471 FileStorageServiceImpl:56 - model.UserFile{name='salary report', type=ODT, size=89} is added: true
+[INFO ] 2019-06-09 22:00:39.617 FileStorageServiceImpl:49 - Try to add file using addFile method 
+[INFO ] 2019-06-09 22:00:39.618 FileDao:55 - Add file to general files list
+[INFO ] 2019-06-09 22:00:39.621 FileStorageServiceImpl:56 - model.UserFile{name='my lonely txt', type=TXT, size=500} is added: true
+[INFO ] 2019-06-09 22:00:39.684 FileStorageServiceImpl:49 - Try to add file using addFile method 
+[INFO ] 2019-06-09 22:00:39.686 FileDao:55 - Add file to general files list
+[INFO ] 2019-06-09 22:00:39.718 FileStorageServiceImpl:56 - model.UserFile{name='fitness schedule', type=DOC, size=250} is added: true
+[INFO ] 2019-06-09 22:00:40.475 FileStorageServiceImpl:25 - Get all files in storage.
+[INFO ] 2019-06-09 22:03:53.621 FileStorageServiceImpl:25 - Get all files in storage.
+[INFO ] 2019-06-09 22:04:27.068 FileStorageServiceImpl:25 - Get all files in storage.
+[INFO ] 2019-06-09 22:43:24.559 FileStorageServiceImpl:25 - Get all files in storage.
+[INFO ] 2019-06-09 22:43:24.665 FileStorageServiceImpl:49 - Try to add file using addFile method 
+[INFO ] 2019-06-09 22:43:24.666 FileDao:55 - Add file to general files list
+[INFO ] 2019-06-09 22:43:24.692 FileStorageServiceImpl:56 - model.UserFile{name='letter to grandma', type=WKS, size=400} is added: true
+[INFO ] 2019-06-09 22:43:25.067 FileStorageServiceImpl:25 - Get all files in storage.
+[INFO ] 2019-06-09 22:43:25.118 FileStorageServiceImpl:49 - Try to add file using addFile method 
+[INFO ] 2019-06-09 22:43:25.121 FileDao:55 - Add file to general files list
+[ERROR] 2019-06-09 22:43:25.222 FileDao:68 -  This file already exists
+[WARN ] 2019-06-09 22:43:25.293 FileStorageServiceImpl:53 - Such file already exist 
+[INFO ] 2019-06-09 22:43:29.221 FileStorageServiceImpl:25 - Get all files in storage.
+[INFO ] 2019-06-09 22:54:54.287 FileStorageServiceImpl:25 - Get all files in storage.
+[INFO ] 2019-06-09 22:54:54.378 FileStorageServiceImpl:49 - Try to add file using addFile method 
+[INFO ] 2019-06-09 22:54:54.379 FileDao:55 - Add file to general files list
+[ERROR] 2019-06-09 22:54:54.380 FileDao:68 -  This file already exists
+[WARN ] 2019-06-09 22:54:54.450 FileStorageServiceImpl:53 - Such file already exist 
+[INFO ] 2019-06-09 22:54:56.579 FileStorageServiceImpl:25 - Get all files in storage.
+[INFO ] 2019-06-09 22:54:56.964 FileStorageServiceImpl:49 - Try to add file using addFile method 
+[INFO ] 2019-06-09 22:54:56.965 FileDao:55 - Add file to general files list
+[ERROR] 2019-06-09 22:54:57.070 FileDao:68 -  This file already exists
+[WARN ] 2019-06-09 22:54:57.070 FileStorageServiceImpl:53 - Such file already exist 
+[INFO ] 2019-06-09 22:54:57.416 FileStorageServiceImpl:49 - Try to add file using addFile method 
+[INFO ] 2019-06-09 22:54:57.428 FileDao:55 - Add file to general files list
+[ERROR] 2019-06-09 22:54:57.477 FileDao:65 -  Maximum file size is 1MB, you can't add larger file
+[WARN ] 2019-06-09 22:54:57.479 FileStorageServiceImpl:53 - Such file already exist 
+[INFO ] 2019-06-09 22:54:57.893 FileStorageServiceImpl:25 - Get all files in storage.
+[INFO ] 2019-06-09 22:57:37.111 FileStorageServiceImpl:25 - Get all files in storage.
+[INFO ] 2019-06-09 22:57:38.168 FileStorageServiceImpl:25 - Get all files in storage.
+[INFO ] 2019-06-09 22:57:38.292 FileStorageServiceImpl:49 - Try to add file using addFile method 
+[INFO ] 2019-06-09 22:57:38.293 FileDao:55 - Add file to general files list
+[ERROR] 2019-06-09 22:57:38.349 FileDao:68 -  This file already exists
+[WARN ] 2019-06-09 22:57:38.350 FileStorageServiceImpl:53 - Such file already exist 
+[INFO ] 2019-06-09 22:57:38.541 FileStorageServiceImpl:49 - Try to add file using addFile method 
+[INFO ] 2019-06-09 22:57:38.574 FileDao:55 - Add file to general files list
+[ERROR] 2019-06-09 22:57:38.575 FileDao:65 -  Maximum file size is 1MB, you can't add larger file
+[WARN ] 2019-06-09 22:57:38.576 FileStorageServiceImpl:53 - Such file already exist 
+[INFO ] 2019-06-09 22:57:39.195 FileStorageServiceImpl:25 - Get all files in storage.
+[INFO ] 2019-06-09 22:58:32.722 FileStorageServiceImpl:25 - Get all files in storage.
+[INFO ] 2019-06-09 22:58:33.081 FileStorageServiceImpl:25 - Get all files in storage.
+[INFO ] 2019-06-09 22:58:33.313 FileStorageServiceImpl:49 - Try to add file using addFile method 
+[INFO ] 2019-06-09 22:58:33.314 FileDao:55 - Add file to general files list
+[ERROR] 2019-06-09 22:58:33.315 FileDao:68 -  This file already exists
+[WARN ] 2019-06-09 22:58:33.316 FileStorageServiceImpl:53 - Such file already exist 
+[INFO ] 2019-06-09 22:58:33.540 FileStorageServiceImpl:49 - Try to add file using addFile method 
+[INFO ] 2019-06-09 22:58:33.541 FileDao:55 - Add file to general files list
+[ERROR] 2019-06-09 22:58:33.542 FileDao:65 -  Maximum file size is 1MB, you can't add larger file
+[WARN ] 2019-06-09 22:58:33.543 FileStorageServiceImpl:53 - Such file already exist 
+[INFO ] 2019-06-09 22:58:33.579 FileStorageServiceImpl:25 - Get all files in storage.
+[INFO ] 2019-06-09 23:13:02.681 FileStorageServiceImpl:49 - Try to add file using addFile method 
+[INFO ] 2019-06-09 23:13:02.715 FileDao:55 - Add file to general files list
+[INFO ] 2019-06-09 23:13:02.737 FileStorageServiceImpl:56 - model.UserFile{name='laptop configuration', type=WKS, size=500} is added: true
+[INFO ] 2019-06-09 23:13:02.786 FileStorageServiceImpl:49 - Try to add file using addFile method 
+[INFO ] 2019-06-09 23:13:02.836 FileDao:55 - Add file to general files list
+[INFO ] 2019-06-09 23:13:02.882 FileStorageServiceImpl:56 - model.UserFile{name='my birthday party menu', type=ODT, size=766} is added: true
+[INFO ] 2019-06-09 23:13:02.898 FileStorageServiceImpl:49 - Try to add file using addFile method 
+[INFO ] 2019-06-09 23:13:02.898 FileDao:55 - Add file to general files list
+[INFO ] 2019-06-09 23:13:02.902 FileStorageServiceImpl:56 - model.UserFile{name='salary report', type=ODT, size=89} is added: true
+[INFO ] 2019-06-09 23:13:02.958 FileStorageServiceImpl:49 - Try to add file using addFile method 
+[INFO ] 2019-06-09 23:13:02.959 FileDao:55 - Add file to general files list
+[INFO ] 2019-06-09 23:13:02.983 FileStorageServiceImpl:56 - model.UserFile{name='my lonely txt', type=TXT, size=500} is added: true
+[INFO ] 2019-06-09 23:13:02.990 FileStorageServiceImpl:49 - Try to add file using addFile method 
+[INFO ] 2019-06-09 23:13:03.012 FileDao:55 - Add file to general files list
+[INFO ] 2019-06-09 23:13:03.025 FileStorageServiceImpl:56 - model.UserFile{name='fitness schedule', type=DOC, size=250} is added: true
+[INFO ] 2019-06-09 23:13:03.192 FileStorageServiceImpl:25 - Get all files in storage.
+[INFO ] 2019-06-09 23:13:03.248 FileStorageServiceImpl:49 - Try to add file using addFile method 
+[INFO ] 2019-06-09 23:13:03.248 FileDao:55 - Add file to general files list
+[INFO ] 2019-06-09 23:13:03.251 FileStorageServiceImpl:56 - model.UserFile{name='letter to grandma', type=WKS, size=400} is added: true
+[INFO ] 2019-06-09 23:13:03.543 FileStorageServiceImpl:25 - Get all files in storage.
+[INFO ] 2019-06-09 23:13:03.567 FileStorageServiceImpl:49 - Try to add file using addFile method 
+[INFO ] 2019-06-09 23:13:03.591 FileDao:55 - Add file to general files list
+[ERROR] 2019-06-09 23:13:03.592 FileDao:68 -  This file already exists
+[WARN ] 2019-06-09 23:13:03.593 FileStorageServiceImpl:53 - Such file already exist 
+[INFO ] 2019-06-09 23:13:03.743 FileStorageServiceImpl:49 - Try to add file using addFile method 
+[INFO ] 2019-06-09 23:13:03.761 FileDao:55 - Add file to general files list
+[ERROR] 2019-06-09 23:13:03.784 FileDao:65 -  Maximum file size is 1MB, you can't add larger file
+[WARN ] 2019-06-09 23:13:03.787 FileStorageServiceImpl:53 - Such file already exist 
+[INFO ] 2019-06-09 23:13:03.867 FileStorageServiceImpl:25 - Get all files in storage.
+[INFO ] 2019-06-09 23:13:03.892 FileStorageServiceImpl:62 - Try delete file using removeFile method
+[INFO ] 2019-06-09 23:13:03.894 FileDao:74 - try to delete file from file list
+[INFO ] 2019-06-09 23:13:03.898 FileDao:28 - Looking for file using file name for search
+[INFO ] 2019-06-09 23:13:03.955 FileStorageServiceImpl:62 - Try delete file using removeFile method
+[INFO ] 2019-06-09 23:13:03.956 FileDao:74 - try to delete file from file list
+[INFO ] 2019-06-09 23:13:03.958 FileDao:28 - Looking for file using file name for search
+[INFO ] 2019-06-09 23:13:03.981 FileStorageServiceImpl:62 - Try delete file using removeFile method
+[INFO ] 2019-06-09 23:13:03.997 FileDao:74 - try to delete file from file list
+[INFO ] 2019-06-09 23:13:04.002 FileDao:28 - Looking for file using file name for search
+[INFO ] 2019-06-09 23:13:04.017 FileStorageServiceImpl:62 - Try delete file using removeFile method
+[INFO ] 2019-06-09 23:13:04.019 FileDao:74 - try to delete file from file list
+[INFO ] 2019-06-09 23:13:04.037 FileDao:28 - Looking for file using file name for search
+[INFO ] 2019-06-09 23:13:04.065 FileStorageServiceImpl:62 - Try delete file using removeFile method
+[INFO ] 2019-06-09 23:13:04.067 FileDao:74 - try to delete file from file list
+[INFO ] 2019-06-09 23:13:04.068 FileDao:28 - Looking for file using file name for search
+[INFO ] 2019-06-09 23:14:50.159 FileStorageServiceImpl:49 - Try to add file using addFile method 
+[INFO ] 2019-06-09 23:14:50.160 FileDao:55 - Add file to general files list
+[INFO ] 2019-06-09 23:14:50.162 FileStorageServiceImpl:56 - model.UserFile{name='laptop configuration', type=WKS, size=500} is added: true
+[INFO ] 2019-06-09 23:14:50.186 FileStorageServiceImpl:49 - Try to add file using addFile method 
+[INFO ] 2019-06-09 23:14:50.186 FileDao:55 - Add file to general files list
+[INFO ] 2019-06-09 23:14:50.203 FileStorageServiceImpl:56 - model.UserFile{name='my birthday party menu', type=ODT, size=766} is added: true
+[INFO ] 2019-06-09 23:14:50.237 FileStorageServiceImpl:49 - Try to add file using addFile method 
+[INFO ] 2019-06-09 23:14:50.238 FileDao:55 - Add file to general files list
+[INFO ] 2019-06-09 23:14:50.318 FileStorageServiceImpl:56 - model.UserFile{name='salary report', type=ODT, size=89} is added: true
+[INFO ] 2019-06-09 23:14:50.343 FileStorageServiceImpl:49 - Try to add file using addFile method 
+[INFO ] 2019-06-09 23:14:50.345 FileDao:55 - Add file to general files list
+[INFO ] 2019-06-09 23:14:50.348 FileStorageServiceImpl:56 - model.UserFile{name='my lonely txt', type=TXT, size=500} is added: true
+[INFO ] 2019-06-09 23:14:50.366 FileStorageServiceImpl:49 - Try to add file using addFile method 
+[INFO ] 2019-06-09 23:14:50.368 FileDao:55 - Add file to general files list
+[INFO ] 2019-06-09 23:14:50.370 FileStorageServiceImpl:56 - model.UserFile{name='fitness schedule', type=DOC, size=250} is added: true
+[INFO ] 2019-06-09 23:14:50.715 FileStorageServiceImpl:25 - Get all files in storage.
+[INFO ] 2019-06-09 23:14:50.726 FileStorageServiceImpl:49 - Try to add file using addFile method 
+[INFO ] 2019-06-09 23:14:50.727 FileDao:55 - Add file to general files list
+[INFO ] 2019-06-09 23:14:50.768 FileStorageServiceImpl:56 - model.UserFile{name='letter to grandma', type=WKS, size=400} is added: true
+[INFO ] 2019-06-09 23:14:50.920 FileStorageServiceImpl:62 - Try delete file using removeFile method
+[INFO ] 2019-06-09 23:14:50.929 FileDao:74 - try to delete file from file list
+[INFO ] 2019-06-09 23:14:50.931 FileDao:28 - Looking for file using file name for search
+[INFO ] 2019-06-09 23:14:50.973 FileStorageServiceImpl:62 - Try delete file using removeFile method
+[INFO ] 2019-06-09 23:14:50.975 FileDao:74 - try to delete file from file list
+[INFO ] 2019-06-09 23:14:50.978 FileDao:28 - Looking for file using file name for search
+[INFO ] 2019-06-09 23:14:50.995 FileStorageServiceImpl:62 - Try delete file using removeFile method
+[INFO ] 2019-06-09 23:14:50.996 FileDao:74 - try to delete file from file list
+[INFO ] 2019-06-09 23:14:50.997 FileDao:28 - Looking for file using file name for search
+[INFO ] 2019-06-09 23:14:51.021 FileStorageServiceImpl:62 - Try delete file using removeFile method
+[INFO ] 2019-06-09 23:14:51.026 FileDao:74 - try to delete file from file list
+[INFO ] 2019-06-09 23:14:51.028 FileDao:28 - Looking for file using file name for search
+[INFO ] 2019-06-09 23:14:51.064 FileStorageServiceImpl:62 - Try delete file using removeFile method
+[INFO ] 2019-06-09 23:14:51.065 FileDao:74 - try to delete file from file list
+[INFO ] 2019-06-09 23:14:51.067 FileDao:28 - Looking for file using file name for search
+[INFO ] 2019-06-09 23:14:51.079 FileStorageServiceImpl:49 - Try to add file using addFile method 
+[INFO ] 2019-06-09 23:14:51.080 FileDao:55 - Add file to general files list
+[INFO ] 2019-06-09 23:14:51.090 FileStorageServiceImpl:56 - model.UserFile{name='laptop configuration', type=WKS, size=500} is added: true
+[INFO ] 2019-06-09 23:14:51.148 FileStorageServiceImpl:49 - Try to add file using addFile method 
+[INFO ] 2019-06-09 23:14:51.149 FileDao:55 - Add file to general files list
+[INFO ] 2019-06-09 23:14:51.150 FileStorageServiceImpl:56 - model.UserFile{name='my birthday party menu', type=ODT, size=766} is added: true
+[INFO ] 2019-06-09 23:14:51.156 FileStorageServiceImpl:49 - Try to add file using addFile method 
+[INFO ] 2019-06-09 23:14:51.157 FileDao:55 - Add file to general files list
+[INFO ] 2019-06-09 23:14:51.159 FileStorageServiceImpl:56 - model.UserFile{name='salary report', type=ODT, size=89} is added: true
+[INFO ] 2019-06-09 23:14:51.165 FileStorageServiceImpl:49 - Try to add file using addFile method 
+[INFO ] 2019-06-09 23:14:51.166 FileDao:55 - Add file to general files list
+[INFO ] 2019-06-09 23:14:51.168 FileStorageServiceImpl:56 - model.UserFile{name='my lonely txt', type=TXT, size=500} is added: true
+[INFO ] 2019-06-09 23:14:51.177 FileStorageServiceImpl:49 - Try to add file using addFile method 
+[INFO ] 2019-06-09 23:14:51.178 FileDao:55 - Add file to general files list
+[INFO ] 2019-06-09 23:14:51.180 FileStorageServiceImpl:56 - model.UserFile{name='fitness schedule', type=DOC, size=250} is added: true
+[INFO ] 2019-06-09 23:14:51.204 FileStorageServiceImpl:25 - Get all files in storage.
+[INFO ] 2019-06-09 23:14:51.215 FileStorageServiceImpl:49 - Try to add file using addFile method 
+[INFO ] 2019-06-09 23:14:51.256 FileDao:55 - Add file to general files list
+[ERROR] 2019-06-09 23:14:51.258 FileDao:68 -  This file already exists
+[WARN ] 2019-06-09 23:14:51.266 FileStorageServiceImpl:53 - Such file already exist 
+[INFO ] 2019-06-09 23:14:51.398 FileStorageServiceImpl:49 - Try to add file using addFile method 
+[INFO ] 2019-06-09 23:14:51.406 FileDao:55 - Add file to general files list
+[ERROR] 2019-06-09 23:14:51.407 FileDao:65 -  Maximum file size is 1MB, you can't add larger file
+[WARN ] 2019-06-09 23:14:51.408 FileStorageServiceImpl:53 - Such file already exist 
+[INFO ] 2019-06-09 23:14:51.508 FileStorageServiceImpl:62 - Try delete file using removeFile method
+[INFO ] 2019-06-09 23:14:51.518 FileDao:74 - try to delete file from file list
+[INFO ] 2019-06-09 23:14:51.528 FileDao:28 - Looking for file using file name for search
+[INFO ] 2019-06-09 23:14:51.536 FileStorageServiceImpl:62 - Try delete file using removeFile method
+[INFO ] 2019-06-09 23:14:51.537 FileDao:74 - try to delete file from file list
+[INFO ] 2019-06-09 23:14:51.539 FileDao:28 - Looking for file using file name for search
+[INFO ] 2019-06-09 23:14:51.643 FileStorageServiceImpl:62 - Try delete file using removeFile method
+[INFO ] 2019-06-09 23:14:51.644 FileDao:74 - try to delete file from file list
+[INFO ] 2019-06-09 23:14:51.672 FileDao:28 - Looking for file using file name for search
+[INFO ] 2019-06-09 23:14:51.733 FileStorageServiceImpl:62 - Try delete file using removeFile method
+[INFO ] 2019-06-09 23:14:51.734 FileDao:74 - try to delete file from file list
+[INFO ] 2019-06-09 23:14:51.735 FileDao:28 - Looking for file using file name for search
+[INFO ] 2019-06-09 23:14:51.778 FileStorageServiceImpl:62 - Try delete file using removeFile method
+[INFO ] 2019-06-09 23:14:51.779 FileDao:74 - try to delete file from file list
+[INFO ] 2019-06-09 23:14:51.780 FileDao:28 - Looking for file using file name for search
+[INFO ] 2019-06-09 23:14:51.796 FileStorageServiceImpl:49 - Try to add file using addFile method 
+[INFO ] 2019-06-09 23:14:51.797 FileDao:55 - Add file to general files list
+[INFO ] 2019-06-09 23:14:51.799 FileStorageServiceImpl:56 - model.UserFile{name='laptop configuration', type=WKS, size=500} is added: true
+[INFO ] 2019-06-09 23:14:51.806 FileStorageServiceImpl:49 - Try to add file using addFile method 
+[INFO ] 2019-06-09 23:14:51.807 FileDao:55 - Add file to general files list
+[INFO ] 2019-06-09 23:14:51.822 FileStorageServiceImpl:56 - model.UserFile{name='my birthday party menu', type=ODT, size=766} is added: true
+[INFO ] 2019-06-09 23:14:51.841 FileStorageServiceImpl:49 - Try to add file using addFile method 
+[INFO ] 2019-06-09 23:14:51.842 FileDao:55 - Add file to general files list
+[INFO ] 2019-06-09 23:14:51.845 FileStorageServiceImpl:56 - model.UserFile{name='salary report', type=ODT, size=89} is added: true
+[INFO ] 2019-06-09 23:14:51.855 FileStorageServiceImpl:49 - Try to add file using addFile method 
+[INFO ] 2019-06-09 23:14:51.857 FileDao:55 - Add file to general files list
+[INFO ] 2019-06-09 23:14:51.859 FileStorageServiceImpl:56 - model.UserFile{name='my lonely txt', type=TXT, size=500} is added: true
+[INFO ] 2019-06-09 23:14:51.863 FileStorageServiceImpl:49 - Try to add file using addFile method 
+[INFO ] 2019-06-09 23:14:51.864 FileDao:55 - Add file to general files list
+[INFO ] 2019-06-09 23:14:51.866 FileStorageServiceImpl:56 - model.UserFile{name='fitness schedule', type=DOC, size=250} is added: true
+[INFO ] 2019-06-09 23:14:51.916 FileStorageServiceImpl:25 - Get all files in storage.
+[INFO ] 2019-06-09 23:14:51.936 FileStorageServiceImpl:62 - Try delete file using removeFile method
+[INFO ] 2019-06-09 23:14:51.937 FileDao:74 - try to delete file from file list
+[INFO ] 2019-06-09 23:14:51.940 FileDao:28 - Looking for file using file name for search
+[INFO ] 2019-06-09 23:14:51.947 FileStorageServiceImpl:62 - Try delete file using removeFile method
+[INFO ] 2019-06-09 23:14:51.950 FileDao:74 - try to delete file from file list
+[INFO ] 2019-06-09 23:14:51.953 FileDao:28 - Looking for file using file name for search
+[INFO ] 2019-06-09 23:14:51.961 FileStorageServiceImpl:62 - Try delete file using removeFile method
+[INFO ] 2019-06-09 23:14:51.962 FileDao:74 - try to delete file from file list
+[INFO ] 2019-06-09 23:14:51.964 FileDao:28 - Looking for file using file name for search
+[INFO ] 2019-06-09 23:14:51.994 FileStorageServiceImpl:62 - Try delete file using removeFile method
+[INFO ] 2019-06-09 23:14:51.995 FileDao:74 - try to delete file from file list
+[INFO ] 2019-06-09 23:14:51.997 FileDao:28 - Looking for file using file name for search
+[INFO ] 2019-06-09 23:14:52.010 FileStorageServiceImpl:62 - Try delete file using removeFile method
+[INFO ] 2019-06-09 23:14:52.015 FileDao:74 - try to delete file from file list
+[INFO ] 2019-06-09 23:14:52.038 FileDao:28 - Looking for file using file name for search
+[INFO ] 2019-06-09 23:16:52.779 FileStorageServiceImpl:49 - Try to add file using addFile method 
+[INFO ] 2019-06-09 23:16:52.781 FileDao:55 - Add file to general files list
+[INFO ] 2019-06-09 23:16:52.783 FileStorageServiceImpl:56 - model.UserFile{name='laptop configuration', type=WKS, size=500} is added: true
+[INFO ] 2019-06-09 23:16:52.811 FileStorageServiceImpl:49 - Try to add file using addFile method 
+[INFO ] 2019-06-09 23:16:52.812 FileDao:55 - Add file to general files list
+[INFO ] 2019-06-09 23:16:52.815 FileStorageServiceImpl:56 - model.UserFile{name='my birthday party menu', type=ODT, size=766} is added: true
+[INFO ] 2019-06-09 23:16:52.822 FileStorageServiceImpl:49 - Try to add file using addFile method 
+[INFO ] 2019-06-09 23:16:52.823 FileDao:55 - Add file to general files list
+[INFO ] 2019-06-09 23:16:52.824 FileStorageServiceImpl:56 - model.UserFile{name='salary report', type=ODT, size=89} is added: true
+[INFO ] 2019-06-09 23:16:52.831 FileStorageServiceImpl:49 - Try to add file using addFile method 
+[INFO ] 2019-06-09 23:16:52.832 FileDao:55 - Add file to general files list
+[INFO ] 2019-06-09 23:16:52.839 FileStorageServiceImpl:56 - model.UserFile{name='my lonely txt', type=TXT, size=500} is added: true
+[INFO ] 2019-06-09 23:16:52.846 FileStorageServiceImpl:49 - Try to add file using addFile method 
+[INFO ] 2019-06-09 23:16:52.846 FileDao:55 - Add file to general files list
+[INFO ] 2019-06-09 23:16:52.858 FileStorageServiceImpl:56 - model.UserFile{name='fitness schedule', type=DOC, size=250} is added: true
+[INFO ] 2019-06-09 23:16:53.346 FileStorageServiceImpl:25 - Get all files in storage.
+[INFO ] 2019-06-09 23:16:53.481 FileStorageServiceImpl:62 - Try delete file using removeFile method
+[INFO ] 2019-06-09 23:16:53.484 FileDao:74 - try to delete file from file list
+[INFO ] 2019-06-09 23:16:53.486 FileDao:28 - Looking for file using file name for search
+[INFO ] 2019-06-09 23:16:53.515 FileStorageServiceImpl:62 - Try delete file using removeFile method
+[INFO ] 2019-06-09 23:16:53.519 FileDao:74 - try to delete file from file list
+[INFO ] 2019-06-09 23:16:53.520 FileDao:28 - Looking for file using file name for search
+[INFO ] 2019-06-09 23:16:53.527 FileStorageServiceImpl:62 - Try delete file using removeFile method
+[INFO ] 2019-06-09 23:16:53.528 FileDao:74 - try to delete file from file list
+[INFO ] 2019-06-09 23:16:53.530 FileDao:28 - Looking for file using file name for search
+[INFO ] 2019-06-09 23:16:53.540 FileStorageServiceImpl:62 - Try delete file using removeFile method
+[INFO ] 2019-06-09 23:16:53.542 FileDao:74 - try to delete file from file list
+[INFO ] 2019-06-09 23:16:53.546 FileDao:28 - Looking for file using file name for search
+[INFO ] 2019-06-09 23:16:53.563 FileStorageServiceImpl:62 - Try delete file using removeFile method
+[INFO ] 2019-06-09 23:16:53.564 FileDao:74 - try to delete file from file list
+[INFO ] 2019-06-09 23:16:53.565 FileDao:28 - Looking for file using file name for search
+[INFO ] 2019-06-09 23:16:53.662 FileStorageServiceImpl:49 - Try to add file using addFile method 
+[INFO ] 2019-06-09 23:16:53.663 FileDao:55 - Add file to general files list
+[INFO ] 2019-06-09 23:16:53.665 FileStorageServiceImpl:56 - model.UserFile{name='laptop configuration', type=WKS, size=500} is added: true
+[INFO ] 2019-06-09 23:16:53.678 FileStorageServiceImpl:49 - Try to add file using addFile method 
+[INFO ] 2019-06-09 23:16:53.679 FileDao:55 - Add file to general files list
+[INFO ] 2019-06-09 23:16:53.681 FileStorageServiceImpl:56 - model.UserFile{name='my birthday party menu', type=ODT, size=766} is added: true
+[INFO ] 2019-06-09 23:16:53.705 FileStorageServiceImpl:49 - Try to add file using addFile method 
+[INFO ] 2019-06-09 23:16:53.706 FileDao:55 - Add file to general files list
+[INFO ] 2019-06-09 23:16:53.730 FileStorageServiceImpl:56 - model.UserFile{name='salary report', type=ODT, size=89} is added: true
+[INFO ] 2019-06-09 23:16:53.741 FileStorageServiceImpl:49 - Try to add file using addFile method 
+[INFO ] 2019-06-09 23:16:53.744 FileDao:55 - Add file to general files list
+[INFO ] 2019-06-09 23:16:53.747 FileStorageServiceImpl:56 - model.UserFile{name='my lonely txt', type=TXT, size=500} is added: true
+[INFO ] 2019-06-09 23:16:53.754 FileStorageServiceImpl:49 - Try to add file using addFile method 
+[INFO ] 2019-06-09 23:16:53.755 FileDao:55 - Add file to general files list
+[INFO ] 2019-06-09 23:16:53.758 FileStorageServiceImpl:56 - model.UserFile{name='fitness schedule', type=DOC, size=250} is added: true
+[INFO ] 2019-06-09 23:16:53.847 FileStorageServiceImpl:25 - Get all files in storage.
+[INFO ] 2019-06-09 23:16:53.873 FileStorageServiceImpl:49 - Try to add file using addFile method 
+[INFO ] 2019-06-09 23:16:53.874 FileDao:55 - Add file to general files list
+[ERROR] 2019-06-09 23:16:53.875 FileDao:68 -  This file already exists
+[WARN ] 2019-06-09 23:16:53.875 FileStorageServiceImpl:53 - Such file already exist 
+[INFO ] 2019-06-09 23:16:53.995 FileStorageServiceImpl:49 - Try to add file using addFile method 
+[INFO ] 2019-06-09 23:16:53.996 FileDao:55 - Add file to general files list
+[ERROR] 2019-06-09 23:16:53.998 FileDao:65 -  Maximum file size is 1MB, you can't add larger file
+[WARN ] 2019-06-09 23:16:53.999 FileStorageServiceImpl:53 - Such file already exist 
+[INFO ] 2019-06-09 23:16:54.125 FileStorageServiceImpl:62 - Try delete file using removeFile method
+[INFO ] 2019-06-09 23:16:54.129 FileDao:74 - try to delete file from file list
+[INFO ] 2019-06-09 23:16:54.130 FileDao:28 - Looking for file using file name for search
+[INFO ] 2019-06-09 23:16:54.147 FileStorageServiceImpl:62 - Try delete file using removeFile method
+[INFO ] 2019-06-09 23:16:54.148 FileDao:74 - try to delete file from file list
+[INFO ] 2019-06-09 23:16:54.150 FileDao:28 - Looking for file using file name for search
+[INFO ] 2019-06-09 23:16:54.161 FileStorageServiceImpl:62 - Try delete file using removeFile method
+[INFO ] 2019-06-09 23:16:54.162 FileDao:74 - try to delete file from file list
+[INFO ] 2019-06-09 23:16:54.164 FileDao:28 - Looking for file using file name for search
+[INFO ] 2019-06-09 23:16:54.170 FileStorageServiceImpl:62 - Try delete file using removeFile method
+[INFO ] 2019-06-09 23:16:54.178 FileDao:74 - try to delete file from file list
+[INFO ] 2019-06-09 23:16:54.179 FileDao:28 - Looking for file using file name for search
+[INFO ] 2019-06-09 23:16:54.187 FileStorageServiceImpl:62 - Try delete file using removeFile method
+[INFO ] 2019-06-09 23:16:54.190 FileDao:74 - try to delete file from file list
+[INFO ] 2019-06-09 23:16:54.192 FileDao:28 - Looking for file using file name for search
+[INFO ] 2019-06-09 23:16:54.328 FileStorageServiceImpl:49 - Try to add file using addFile method 
+[INFO ] 2019-06-09 23:16:54.330 FileDao:55 - Add file to general files list
+[INFO ] 2019-06-09 23:16:54.339 FileStorageServiceImpl:56 - model.UserFile{name='laptop configuration', type=WKS, size=500} is added: true
+[INFO ] 2019-06-09 23:16:54.348 FileStorageServiceImpl:49 - Try to add file using addFile method 
+[INFO ] 2019-06-09 23:16:54.349 FileDao:55 - Add file to general files list
+[INFO ] 2019-06-09 23:16:54.352 FileStorageServiceImpl:56 - model.UserFile{name='my birthday party menu', type=ODT, size=766} is added: true
+[INFO ] 2019-06-09 23:16:54.366 FileStorageServiceImpl:49 - Try to add file using addFile method 
+[INFO ] 2019-06-09 23:16:54.367 FileDao:55 - Add file to general files list
+[INFO ] 2019-06-09 23:16:54.369 FileStorageServiceImpl:56 - model.UserFile{name='salary report', type=ODT, size=89} is added: true
+[INFO ] 2019-06-09 23:16:54.383 FileStorageServiceImpl:49 - Try to add file using addFile method 
+[INFO ] 2019-06-09 23:16:54.384 FileDao:55 - Add file to general files list
+[INFO ] 2019-06-09 23:16:54.390 FileStorageServiceImpl:56 - model.UserFile{name='my lonely txt', type=TXT, size=500} is added: true
+[INFO ] 2019-06-09 23:16:54.397 FileStorageServiceImpl:49 - Try to add file using addFile method 
+[INFO ] 2019-06-09 23:16:54.398 FileDao:55 - Add file to general files list
+[INFO ] 2019-06-09 23:16:54.430 FileStorageServiceImpl:56 - model.UserFile{name='fitness schedule', type=DOC, size=250} is added: true
+[INFO ] 2019-06-09 23:16:54.591 FileStorageServiceImpl:25 - Get all files in storage.
+[INFO ] 2019-06-09 23:16:54.752 FileStorageServiceImpl:62 - Try delete file using removeFile method
+[INFO ] 2019-06-09 23:16:54.753 FileDao:74 - try to delete file from file list
+[INFO ] 2019-06-09 23:16:54.755 FileDao:28 - Looking for file using file name for search
+[INFO ] 2019-06-09 23:16:54.772 FileStorageServiceImpl:62 - Try delete file using removeFile method
+[INFO ] 2019-06-09 23:16:54.774 FileDao:74 - try to delete file from file list
+[INFO ] 2019-06-09 23:16:54.780 FileDao:28 - Looking for file using file name for search
+[INFO ] 2019-06-09 23:16:54.862 FileStorageServiceImpl:62 - Try delete file using removeFile method
+[INFO ] 2019-06-09 23:16:54.863 FileDao:74 - try to delete file from file list
+[INFO ] 2019-06-09 23:16:54.896 FileDao:28 - Looking for file using file name for search
+[INFO ] 2019-06-09 23:16:54.952 FileStorageServiceImpl:62 - Try delete file using removeFile method
+[INFO ] 2019-06-09 23:16:54.953 FileDao:74 - try to delete file from file list
+[INFO ] 2019-06-09 23:16:54.994 FileDao:28 - Looking for file using file name for search
+[INFO ] 2019-06-09 23:16:55.024 FileStorageServiceImpl:62 - Try delete file using removeFile method
+[INFO ] 2019-06-09 23:16:55.025 FileDao:74 - try to delete file from file list
+[INFO ] 2019-06-09 23:16:55.062 FileDao:28 - Looking for file using file name for search
+[INFO ] 2019-06-09 23:17:46.534 FileStorageServiceImpl:49 - Try to add file using addFile method 
+[INFO ] 2019-06-09 23:17:46.534 FileDao:55 - Add file to general files list
+[INFO ] 2019-06-09 23:17:46.576 FileStorageServiceImpl:56 - model.UserFile{name='laptop configuration', type=WKS, size=500} is added: true
+[INFO ] 2019-06-09 23:17:46.599 FileStorageServiceImpl:49 - Try to add file using addFile method 
+[INFO ] 2019-06-09 23:17:46.600 FileDao:55 - Add file to general files list
+[INFO ] 2019-06-09 23:17:46.602 FileStorageServiceImpl:56 - model.UserFile{name='my birthday party menu', type=ODT, size=766} is added: true
+[INFO ] 2019-06-09 23:17:46.626 FileStorageServiceImpl:49 - Try to add file using addFile method 
+[INFO ] 2019-06-09 23:17:46.627 FileDao:55 - Add file to general files list
+[INFO ] 2019-06-09 23:17:46.629 FileStorageServiceImpl:56 - model.UserFile{name='salary report', type=ODT, size=89} is added: true
+[INFO ] 2019-06-09 23:17:46.635 FileStorageServiceImpl:49 - Try to add file using addFile method 
+[INFO ] 2019-06-09 23:17:46.636 FileDao:55 - Add file to general files list
+[INFO ] 2019-06-09 23:17:46.638 FileStorageServiceImpl:56 - model.UserFile{name='my lonely txt', type=TXT, size=500} is added: true
+[INFO ] 2019-06-09 23:17:46.646 FileStorageServiceImpl:49 - Try to add file using addFile method 
+[INFO ] 2019-06-09 23:17:46.648 FileDao:55 - Add file to general files list
+[INFO ] 2019-06-09 23:17:46.652 FileStorageServiceImpl:56 - model.UserFile{name='fitness schedule', type=DOC, size=250} is added: true
+[INFO ] 2019-06-09 23:17:46.885 FileStorageServiceImpl:25 - Get all files in storage.
+[INFO ] 2019-06-09 23:17:47.238 FileStorageServiceImpl:25 - Get all files in storage.
+[INFO ] 2019-06-09 23:17:47.249 FileStorageServiceImpl:49 - Try to add file using addFile method 
+[INFO ] 2019-06-09 23:17:47.250 FileDao:55 - Add file to general files list
+[ERROR] 2019-06-09 23:17:47.251 FileDao:68 -  This file already exists
+[WARN ] 2019-06-09 23:17:47.252 FileStorageServiceImpl:53 - Such file already exist 
+[INFO ] 2019-06-09 23:17:47.361 FileStorageServiceImpl:49 - Try to add file using addFile method 
+[INFO ] 2019-06-09 23:17:47.362 FileDao:55 - Add file to general files list
+[ERROR] 2019-06-09 23:17:47.364 FileDao:65 -  Maximum file size is 1MB, you can't add larger file
+[WARN ] 2019-06-09 23:17:47.364 FileStorageServiceImpl:53 - Such file already exist 
+[INFO ] 2019-06-09 23:17:47.491 FileStorageServiceImpl:25 - Get all files in storage.
+[INFO ] 2019-06-09 23:17:47.690 FileStorageServiceImpl:62 - Try delete file using removeFile method
+[INFO ] 2019-06-09 23:17:47.691 FileDao:74 - try to delete file from file list
+[INFO ] 2019-06-09 23:17:47.692 FileDao:28 - Looking for file using file name for search
+[INFO ] 2019-06-09 23:17:47.882 FileStorageServiceImpl:62 - Try delete file using removeFile method
+[INFO ] 2019-06-09 23:17:47.883 FileDao:74 - try to delete file from file list
+[INFO ] 2019-06-09 23:17:47.884 FileDao:28 - Looking for file using file name for search
+[INFO ] 2019-06-09 23:17:47.892 FileStorageServiceImpl:62 - Try delete file using removeFile method
+[INFO ] 2019-06-09 23:17:47.893 FileDao:74 - try to delete file from file list
+[INFO ] 2019-06-09 23:17:47.895 FileDao:28 - Looking for file using file name for search
+[INFO ] 2019-06-09 23:17:47.919 FileStorageServiceImpl:62 - Try delete file using removeFile method
+[INFO ] 2019-06-09 23:17:47.920 FileDao:74 - try to delete file from file list
+[INFO ] 2019-06-09 23:17:47.922 FileDao:28 - Looking for file using file name for search
+[INFO ] 2019-06-09 23:17:47.939 FileStorageServiceImpl:62 - Try delete file using removeFile method
+[INFO ] 2019-06-09 23:17:47.940 FileDao:74 - try to delete file from file list
+[INFO ] 2019-06-09 23:17:47.940 FileDao:28 - Looking for file using file name for search
+[INFO ] 2019-06-09 23:19:52.310 FileStorageServiceImpl:49 - Try to add file using addFile method 
+[INFO ] 2019-06-09 23:19:52.311 FileDao:55 - Add file to general files list
+[INFO ] 2019-06-09 23:19:52.314 FileStorageServiceImpl:56 - model.UserFile{name='laptop configuration', type=WKS, size=500} is added: true
+[INFO ] 2019-06-09 23:19:52.338 FileStorageServiceImpl:49 - Try to add file using addFile method 
+[INFO ] 2019-06-09 23:19:52.339 FileDao:55 - Add file to general files list
+[INFO ] 2019-06-09 23:19:52.341 FileStorageServiceImpl:56 - model.UserFile{name='my birthday party menu', type=ODT, size=766} is added: true
+[INFO ] 2019-06-09 23:19:52.347 FileStorageServiceImpl:49 - Try to add file using addFile method 
+[INFO ] 2019-06-09 23:19:52.348 FileDao:55 - Add file to general files list
+[INFO ] 2019-06-09 23:19:52.390 FileStorageServiceImpl:56 - model.UserFile{name='salary report', type=ODT, size=89} is added: true
+[INFO ] 2019-06-09 23:19:52.397 FileStorageServiceImpl:49 - Try to add file using addFile method 
+[INFO ] 2019-06-09 23:19:52.397 FileDao:55 - Add file to general files list
+[INFO ] 2019-06-09 23:19:52.409 FileStorageServiceImpl:56 - model.UserFile{name='my lonely txt', type=TXT, size=500} is added: true
+[INFO ] 2019-06-09 23:19:52.416 FileStorageServiceImpl:49 - Try to add file using addFile method 
+[INFO ] 2019-06-09 23:19:52.417 FileDao:55 - Add file to general files list
+[INFO ] 2019-06-09 23:19:52.443 FileStorageServiceImpl:56 - model.UserFile{name='fitness schedule', type=DOC, size=250} is added: true
+[INFO ] 2019-06-09 23:19:52.694 FileStorageServiceImpl:25 - Get all files in storage.
+[INFO ] 2019-06-09 23:19:53.059 FileStorageServiceImpl:25 - Get all files in storage.
+[INFO ] 2019-06-09 23:19:53.069 FileStorageServiceImpl:49 - Try to add file using addFile method 
+[INFO ] 2019-06-09 23:19:53.079 FileDao:55 - Add file to general files list
+[ERROR] 2019-06-09 23:19:53.081 FileDao:68 -  This file already exists
+[WARN ] 2019-06-09 23:19:53.083 FileStorageServiceImpl:53 - Such file already exist 
+[INFO ] 2019-06-09 23:19:53.188 FileStorageServiceImpl:49 - Try to add file using addFile method 
+[INFO ] 2019-06-09 23:19:53.190 FileDao:55 - Add file to general files list
+[ERROR] 2019-06-09 23:19:53.191 FileDao:65 -  Maximum file size is 1MB, you can't add larger file
+[WARN ] 2019-06-09 23:19:53.193 FileStorageServiceImpl:53 - Such file already exist 
+[INFO ] 2019-06-09 23:19:53.424 FileStorageServiceImpl:25 - Get all files in storage.
+[INFO ] 2019-06-09 23:19:53.593 FileStorageServiceImpl:62 - Try delete file using removeFile method
+[INFO ] 2019-06-09 23:19:53.595 FileDao:74 - try to delete file from file list
+[INFO ] 2019-06-09 23:19:53.598 FileDao:28 - Looking for file using file name for search
+[INFO ] 2019-06-09 23:19:53.631 FileStorageServiceImpl:62 - Try delete file using removeFile method
+[INFO ] 2019-06-09 23:19:53.632 FileDao:74 - try to delete file from file list
+[INFO ] 2019-06-09 23:19:53.633 FileDao:28 - Looking for file using file name for search
+[INFO ] 2019-06-09 23:19:53.639 FileStorageServiceImpl:62 - Try delete file using removeFile method
+[INFO ] 2019-06-09 23:19:53.640 FileDao:74 - try to delete file from file list
+[INFO ] 2019-06-09 23:19:53.653 FileDao:28 - Looking for file using file name for search
+[INFO ] 2019-06-09 23:19:53.671 FileStorageServiceImpl:62 - Try delete file using removeFile method
+[INFO ] 2019-06-09 23:19:53.672 FileDao:74 - try to delete file from file list
+[INFO ] 2019-06-09 23:19:53.685 FileDao:28 - Looking for file using file name for search
+[INFO ] 2019-06-09 23:19:53.693 FileStorageServiceImpl:62 - Try delete file using removeFile method
+[INFO ] 2019-06-09 23:19:53.694 FileDao:74 - try to delete file from file list
+[INFO ] 2019-06-09 23:19:53.695 FileDao:28 - Looking for file using file name for search

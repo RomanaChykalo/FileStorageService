@@ -226,3 +226,44 @@
 [INFO ] 2019-06-08 20:17:35.593 FileStorageServiceImpl:58 - Remove file from storage
 [INFO ] 2019-06-08 20:17:35.598 FileDao:72 - try to delete file from file list
 [INFO ] 2019-06-08 20:17:35.600 FileDao:27 - Looking for file using file name for search
+[INFO ] 2019-06-08 20:39:35.881 FileStorageServiceImpl:72 - get one type files list
+[INFO ] 2019-06-08 20:40:20.978 FileStorageServiceImpl:72 - get one type files list
+[WARN ] 2019-06-08 20:40:20.980 FileStorageServiceImpl:78 - There is no file in storage with  such name
+[INFO ] 2019-06-08 22:58:06.617 FileStorageServiceImpl:21 - Get all files from storage
+[INFO ] 2019-06-08 22:59:18.160 FileStorageServiceImpl:43 - Add file to storage
+[INFO ] 2019-06-08 22:59:18.230 FileDao:54 - Add file to general files list
+[ERROR] 2019-06-08 22:59:18.264 FileDao:63 -  Maximum file size is 1MB, you can't add larger file
+[WARN ] 2019-06-08 22:59:18.266 FileStorageServiceImpl:49 - Such file already exist  or File is too large for loading, max size is 1000 kb 
+[INFO ] 2019-06-08 22:59:44.983 FileStorageServiceImpl:43 - Add file to storage
+[INFO ] 2019-06-08 22:59:45.008 FileDao:54 - Add file to general files list
+[ERROR] 2019-06-08 22:59:45.050 FileDao:63 -  Maximum file size is 1MB, you can't add larger file
+[WARN ] 2019-06-08 22:59:45.051 FileStorageServiceImpl:49 - Such file already exist  or File is too large for loading, max size is 1000 kb 
+[INFO ] 2019-06-08 23:00:50.713 FileStorageServiceImpl:43 - Add file to storage
+[INFO ] 2019-06-08 23:00:50.721 FileDao:54 - Add file to general files list
+[INFO ] 2019-06-08 23:01:16.226 FileStorageServiceImpl:43 - Add file to storage
+[INFO ] 2019-06-08 23:01:16.228 FileDao:54 - Add file to general files list
+[INFO ] 2019-06-08 23:06:54.515 FileStorageServiceImpl:21 - Get all files from storage
+[INFO ] 2019-06-08 23:07:21.928 FileStorageServiceImpl:43 - Add file to storage
+[INFO ] 2019-06-08 23:07:21.929 FileDao:55 - Add file to general files list
+[INFO ] 2019-06-08 23:14:34.829 FileDao:55 - Add file to general files list
+[INFO ] 2019-06-08 23:16:45.279 FileStorageServiceImpl:21 - Get all files from storage
+[INFO ] 2019-06-08 23:17:07.319 FileStorageServiceImpl:43 - Add file to storage
+[INFO ] 2019-06-08 23:17:07.320 FileDao:55 - Add file to general files list
+[ERROR] 2019-06-08 23:17:07.341 FileDao:68 -  This file already exists
+[WARN ] 2019-06-08 23:17:07.343 FileStorageServiceImpl:49 - Such file already exist  or File is too large for loading, max size is 1000 kb 
+[INFO ] 2019-06-08 23:17:36.262 FileStorageServiceImpl:43 - Add file to storage
+[INFO ] 2019-06-08 23:17:36.274 FileDao:55 - Add file to general files list
+[ERROR] 2019-06-08 23:17:36.276 FileDao:68 -  This file already exists
+[WARN ] 2019-06-08 23:17:36.277 FileStorageServiceImpl:49 - Such file already exist  or File is too large for loading, max size is 1000 kb 
+[INFO ] 2019-06-08 23:18:18.256 FileStorageServiceImpl:43 - Add file to storage
+[INFO ] 2019-06-08 23:18:18.263 FileDao:55 - Add file to general files list
+[ERROR] 2019-06-08 23:18:18.265 FileDao:68 -  This file already exists
+[WARN ] 2019-06-08 23:18:18.267 FileStorageServiceImpl:49 - Such file already exist  or File is too large for loading, max size is 1000 kb 
+[INFO ] 2019-06-08 23:21:46.163 FileStorageServiceImpl:21 - Get all files from storage
+[INFO ] 2019-06-08 23:21:55.632 FileStorageServiceImpl:43 - Add file to storage
+[INFO ] 2019-06-08 23:21:55.643 FileDao:55 - Add file to general files list
+[INFO ] 2019-06-08 23:22:14.806 FileStorageServiceImpl:43 - Add file to storage
+[INFO ] 2019-06-08 23:22:14.807 FileDao:55 - Add file to general files list
+[ERROR] 2019-06-08 23:22:14.830 FileDao:68 -  This file already exists
+[WARN ] 2019-06-08 23:22:14.833 FileStorageServiceImpl:49 - Such file already exist  or File is too large for loading, max size is 1000 kb 
+[ERROR] 2019-06-08 23:23:14.811 FileDao:68 -  This file already exists

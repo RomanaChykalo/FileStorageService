@@ -1,6 +1,7 @@
 package web.soap;
 
 import bo.FileBO;
+import model.Type;
 import model.UserFile;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -31,16 +32,16 @@ public class FileStorageServiceImpl implements FileStorageService {
     }
 
     @Override
-    public Optional<UserFile> getFile(String name) throws SoapServiceException {
+    public UserFile getFile(String name) throws SoapServiceException {
         logger.info("Get file via name and type");
         FileBO fileBO = new FileBO();
         Optional<UserFile> searchedFile = fileBO.getFileByName(name);
-        if (Objects.isNull(searchedFile)) {
+        if (!searchedFile.isPresent()) {
             logger.warn(NO_FILE_WITH_NAME);
             throw new SoapServiceException(NO_FILE_WITH_NAME);
         }
         logger.info("getFile result:" + searchedFile);
-        return searchedFile;
+        return searchedFile.get();
     }
 
     @Override
@@ -66,5 +67,16 @@ public class FileStorageServiceImpl implements FileStorageService {
             throw new SoapServiceException(NO_FILE_WITH_NAME);
         }
         return false;
+    }
+
+    @Override
+    public List<UserFile> getOneTypeFileList(Type type) throws SoapServiceException {
+        logger.info("Try to find files with common type");
+        FileBO fileBO = new FileBO();
+        List<UserFile> filesByTypeList = fileBO.getFilesByType(type);
+        if (filesByTypeList.size() == 0) {
+            throw new SoapServiceException(NO_FILES_IN_STORAGE);
+        }
+        return filesByTypeList;
     }
 }

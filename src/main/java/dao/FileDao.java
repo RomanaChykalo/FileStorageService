@@ -10,6 +10,7 @@ import java.io.File;
 import java.util.List;
 import java.util.Objects;
 import java.util.Optional;
+import java.util.stream.Collectors;
 
 import static model.Type.DOC;
 import static util.CSVProvider.readFilesFromCSV;
@@ -31,30 +32,12 @@ public class FileDao {
 
         return searchedFile;
     }
-
-    /*public static boolean addFile(UserFile file) {
-        logger.info("Add file to general files list");
-        List<UserFile> fileList = readFilesFromCSV(csvFilePath);
-        boolean isAdded;
-        if (!fileList.contains(file) && (file.getSize() <= 1000)) {
-            fileList.add(file);
-            CSVProvider.writeDataToCsvFile(file);
-            isAdded = true;
-        } else if (file.getSize() > 1000) {
-            isAdded = false;
-            logger.error("Maximum file size is 1MB, you can't add larger file");
-        } else {
-            isAdded = false;
-            logger.error("This file already exists");
-        }
-        return isAdded;
-    }*/
-
     public static boolean addFile(UserFile file) {
         logger.info("Add file to general files list");
         List<UserFile> fileList = readFilesFromCSV(csvFilePath);
         boolean isAdded;
-        if (!fileList.contains(file) && (file.getSize() <= 1000)) {
+        List<UserFile> collect = fileList.stream().filter(f -> (f.getName().contentEquals(file.getName()))).collect(Collectors.toList());
+        if (file.getSize() <= 1000 && collect.size() == 0) {
             fileList.add(file);
             CSVProvider.writeDataToCsvFile(fileList);
             isAdded = true;
@@ -80,7 +63,8 @@ public class FileDao {
         return false;
     }
 
-    public static void main(String[] args) {System.out.println(deleteFile("resume"));
+    public static void main(String[] args) {
+        System.out.println(addFile(new UserFile("resume", Type.DOC, 34)));
 
     }
 }
