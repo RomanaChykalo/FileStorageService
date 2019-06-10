@@ -21,12 +21,6 @@ public class FileBO {
     public List<UserFile> getFilesByType(Type type) {
         List<UserFile> userFileList = getAllFiles();
         List<UserFile> oneTypeFileList = userFileList.stream().filter(f -> f.getType().equals(type)).collect(Collectors.toList());
-        /*for (int i = 0; i < bookList.size(); i++) {
-            if (bookList.get(i).getAuthor().equals(authorName)) {
-                authorBookList.add(bookList.get(i));
-            }
-        }*/
-
         return oneTypeFileList;
     }
 
