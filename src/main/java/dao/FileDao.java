@@ -21,12 +21,12 @@ public class FileDao {
     private static Logger logger = LogManager.getLogger(FileDao.class);
 
     public static List<UserFile> findAllFiles() {
-        return readFilesFromCSV(csvFilePath);
+        return readFilesFromCSV(new File(csvFilePath));
     }
 
     public static Optional<UserFile> findByName(String name) {
         logger.info("Looking for file using file name for search");
-        List<UserFile> fileList = readFilesFromCSV(csvFilePath);
+        List<UserFile> fileList = readFilesFromCSV(new File(csvFilePath));
         Optional<UserFile> searchedFile = fileList.stream().filter(f -> f.getName().contentEquals(name))
                 .findAny();
 
@@ -34,7 +34,7 @@ public class FileDao {
     }
     public static boolean addFile(UserFile file) {
         logger.info("Add file to general files list");
-        List<UserFile> fileList = readFilesFromCSV(csvFilePath);
+        List<UserFile> fileList = readFilesFromCSV(new File(csvFilePath));
         boolean isAdded;
         List<UserFile> collect = fileList.stream().filter(f -> (f.getName().contentEquals(file.getName()))).collect(Collectors.toList());
         if (file.getSize() <= 1000 && collect.size() == 0) {
@@ -53,7 +53,7 @@ public class FileDao {
 
     public static boolean deleteFile(String name) {
         logger.info("try to delete file from file list");
-        List<UserFile> fileList = readFilesFromCSV(csvFilePath);
+        List<UserFile> fileList = readFilesFromCSV(new File(csvFilePath));
         Optional<UserFile> fileToDelete = findByName(name);
         if (fileToDelete.isPresent()) {
             fileList.remove(fileToDelete.get());
@@ -61,10 +61,5 @@ public class FileDao {
             return true;
         }
         return false;
-    }
-
-    public static void main(String[] args) {
-        System.out.println(addFile(new UserFile("resume", Type.DOC, 34)));
-
     }
 }

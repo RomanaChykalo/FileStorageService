@@ -27,20 +27,21 @@ public class FileStorageServiceImpl implements FileStorageService {
     public Response findByName(String name) {
         logger.info("Get file from storage method");
         FileBO fileBO = new FileBO();
-        Optional<UserFile> searchedFile = fileBO.getFileByName(name);
+        Optional<UserFile> fileByName = fileBO.getFileByName(name);
         Response response;
-        if (Objects.isNull(searchedFile)) {
+        if (!fileByName.isPresent()) {
             logger.warn(NO_FILE_WITH_NAME);
             response = Response.status(Response.Status.NOT_FOUND).build();
         } else {
+            UserFile searchedFile = fileByName.get();;
             response = Response.ok().entity(searchedFile).build();
             logger.info("File is found: " + searchedFile);
         }
         return response;
     }
+
     @Override
     public Response addFile(UserFile file) {
-        logger.info("Add file to storage");
         Response response;
         FileBO fileBO = new FileBO();
         if (fileBO.addFile(file)) {
@@ -58,11 +59,11 @@ public class FileStorageServiceImpl implements FileStorageService {
         Response response;
         FileBO fileBO = new FileBO();
         boolean isRemoved = fileBO.removeFile(name);
-        if(!isRemoved){
+        if (!isRemoved) {
             response = Response.status(Response.Status.NOT_FOUND).build();
             logger.warn(NO_FILE_WITH_NAME);
         } else {
-            response=Response.ok().build();
+            response = Response.ok().build();
         }
         return response;
     }
@@ -73,7 +74,7 @@ public class FileStorageServiceImpl implements FileStorageService {
         Response response;
         FileBO fileBO = new FileBO();
         List<UserFile> oneTypeList = fileBO.getFilesByType(type);
-        if (oneTypeList.size()==0) {
+        if (oneTypeList.size() == 0) {
             response = Response.status(Response.Status.NOT_FOUND).build();
             logger.warn(NO_FILE_WITH_TYPE);
         } else {

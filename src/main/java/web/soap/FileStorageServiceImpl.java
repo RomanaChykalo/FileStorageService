@@ -33,7 +33,7 @@ public class FileStorageServiceImpl implements FileStorageService {
 
     @Override
     public UserFile getFile(String name) throws SoapServiceException {
-        logger.info("Get file via name and type");
+        logger.info("Get file via name");
         FileBO fileBO = new FileBO();
         Optional<UserFile> searchedFile = fileBO.getFileByName(name);
         if (!searchedFile.isPresent()) {
@@ -66,7 +66,7 @@ public class FileStorageServiceImpl implements FileStorageService {
             logger.warn(NO_FILE_WITH_NAME);
             throw new SoapServiceException(NO_FILE_WITH_NAME);
         }
-        return false;
+        return true;
     }
 
     @Override
