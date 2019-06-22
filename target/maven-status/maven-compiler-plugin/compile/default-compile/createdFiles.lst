@@ -1,5 +1,6 @@
 dao\FileDao.class
 web\fault\ServiceFaultManager.class
+util\PropertyUtil.class
 web\soap\FileStorageServiceImpl.class
 util\CSVProvider.class
 web\rest\FileStorageService.class
